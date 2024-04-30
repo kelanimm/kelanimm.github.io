@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+    <style>
+        /* CSS to style the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin-right: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        main {
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+        <h2>About This Website</h2>
+        <p>This is a simple website created with HTML. It includes a header, a navigation bar, a main content area, and a footer.</p>
+
+        <h2>Contact Information</h2>
+        <p>You can contact me at: <a href="mailto:example@example.com">example@example.com</a></p>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 My Simple Website</p>
+    </footer>
+</body>
+</html>
